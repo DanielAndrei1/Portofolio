@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  background-color: #b1aaaa;
+}
+
+body nav {
+  background-color: #f1b463;
+  text-align: center;
+  height: 34px;
+}
+
+body a {
+  color: white;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 22px;
+  border-left: solid 1px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+body #lastBorder {
+  border-right: solid 1px;
+  padding-right: 13px;
+}
+
+.showcase {
+  height: 500px;
+  width: 100% !important;
+  background-image: url("../images/showcase.jpg");
+  background-repeat: no-repeat;
+  background-position: 25%;
+  text-align: center;
+  color: white;
+}
+
+.showcase h1 {
+  margin: 0;
+  padding-top: 10%;
+}
+
+#image{
+  width: 30% !important;
+  height: auto;
+	float:left;
+	margin-right:10px;
+	border:solid black 1px;
+}
+.paragraf{
+	padding-top:30px;
+	color:white !important;
+	font-size:20px;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+li::before {
+  font-size:20px;
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color:  #b30000; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+#aside{
+	background-color:#35424a;
+	text-align:center;
+	width:300px;
+	height:auto;
+	color:white;
+	position:relative;
+	left:42%;
+	margin-top:18%;
+}
+
+#footer{
+background-color: #b30000;
+color:white;
+height:80px;
+width:100%;
+text-align:center;
+padding-top:30px;
+float:left;
+margin-top:40px;
+}
+
+#photoshopicon{
+width:300px;
+height:auto;
+float:left;
+border:solid 1px;
+margin-right:25px;
+}
+.card{
+
+float:left;
+width:300px;
+
+}
+
+.hrline{
+background-color:orange;
+height:2px;
+
+}
+
+@media only screen and (max-width: 600px) {
+	#aside{
+	position:relative;
+	left:14%;
+
+	}
+
+
+}
+
+
+/*# sourceMappingURL=css.css.map */

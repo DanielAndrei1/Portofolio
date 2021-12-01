@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curiculum Vitae</title>
+	<link rel="shortcut icon" href="..\images\48.png" />     
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+        
+    <nav>   
+
+        <a href="index.html">Home</a> 
+        <a href="Portofoliu.html">Portofolio</a> 
+        <a id="lastBorder" href="Contact.html">Contact</a>
+        </nav>
+
+    <div class ="showcase">
+        <h1>Welcome, my name is Daniel Andrei!</h1>
+        <p class="lead">I am a second year student at the University of Bedfordshire, studying Software Enginnering!</p>
+    </div>
+
+<div class="container">
+    <img id="image" src="..\images\v3.jpg"/>
+    <p class="paragraf" style="margin-top:35px;">Daniel has grown a lot in the last years and developed many traits that have served him well in workplace. He has been a very organized student, active in class and has always made and extra effort to improve his skills. Being an active student in class has made him more confident, efficient in completing his tasks and has opened his mind in order to see creative possibilities and solutions.</p>
+    <p class="paragraf">Daniel has acquired skills and abilities well above his age that translated wonderfully in the class and at the work. Especially his team-work skills and leadership skills were particularly impressive.  Recently, he developed an interest in Computer Science and technology and is currently researching software and web development.<br>
+	Diligent, hardworking and reliable professional with 2+ years verifiable experience in cash handling and customer service. A proven communicator who has a demonstrated ability to make appropriate decisions under pressure and in complex situations.</p>
+
+	<br><br><br>
+	<h1 style="color: #b30000;">Skills</h1>
+	<ul id="skills">
+		<li>Great analytical and troubleshooting abilities</li>
+		<li>Strong knowledge of software and hardware issues</li>
+		<li>Excellent customer-service skills</li>
+		<li>Risk Management</li>
+		<li>Photoshop and video editing</li>
+		<li>Active Directory</li>
+		<li>Extensive network knowledge</li>
+		<li>Good Knowledge of SQL and databases</li>
+		<li>Knowledge of C#,  HTML, CSS, Java script, GIT, SEO,SAAS</li>
+		<li>Apex Oracle</li>
+	</ul>
+	
+	<img id="photoshopicon" src="\images\Adobe_Photoshop.png"></img>
+	<h1 style="color: #b30000;">Photoshop</h1>
+	<p class="paragraf">I can remove unwanted people and objects from a photo, insert someone or something into a photo, repair over- or under-exposed photos, convert coloured photos to black and white (and vice versa), or do something as basic as removing red eye from photos I can also do colour correction, background change, contrast adjustment, and size enlargement. I can as well remove imperfections, change colour of eyes. </p>
+	
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/T9l7k8Vc8Wo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<div class="card" style="width: 18rem;">
+  <img class="card-img-top" style="width: 18rem;" src="./images/v3.jpg" alt="Card image cap"></img>
+  <div class="card-body">
+    <p class="card-text">Last edited version.</p>
+  </div>
+</div>	
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" style="width: 18rem;" src=".\images\image.jpg" alt="Card image cap"></img>
+  <div class="card-body">
+    <p class="card-text">Non edited image.</p>
+  </div>
+</div>
+
+
+<div class="card"   style="width: 18rem;">
+  <img class="card-img-top" style="width: 18rem;" src=".\images\Black and white.jpg" alt="Card image cap"></img>
+  <div class="card-body">
+    <p class="card-text">Black and white image</p>
+  </div>
+</div>
+
+<div class="card"   style="width: 18rem;">
+  <img class="card-img-top" style="width: 18rem;" src=".\images\Black and white.jpg" alt="Card image cap"></img>
+  <div class="card-body">
+  </div>
+</div>
+
+<div class="card"   style="width: 18rem;">
+  <img class="card-img-top" style="width: 18rem;" src=".\images\Black and white.jpg" alt="Card image cap"></img>
+  <div class="card-body">
+  </div>
+</div>
+</div>
+	
+<br><br><br>
+<footer id="footer">
+Copyright 2019		
+			
+</footer>
+
+
+</body>
+</html>
